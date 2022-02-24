@@ -1,0 +1,566 @@
+*{
+    margin: 0;
+
+}
+
+header{
+   
+    width: 100%;
+    height: 33px;
+    background: #ffd200;
+    font-size: .87em;
+    padding: .64em 0;
+    color: #4a4a4a;
+}
+
+header ul{
+     font-family: Roboto,sans-serif;
+     
+} 
+
+header ul li{
+    position: relative;
+    display: inline-block;
+    list-style: none;
+    left:100px ;
+    margin-left: 50px;
+}
+
+li:nth-child(1){
+    position: relative;
+    left: 100px;
+
+}
+
+header ul li a{
+    text-decoration: none;
+    list-style: none;
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    vertical-align: middle;
+    position: relative;
+    text-decoration: none;
+    outline: 0;
+    color: #4a4a4a;
+    padding: 0;
+}
+
+svg{
+    position: absolute;
+    right: 100px;
+    height: 50px;
+}
+
+ #book{
+    width: 450px;
+    height: 10px;
+        background: #f1f1f1!important;
+        border-color: #f1f1f1!important;
+        font-size: 1.125em;
+        padding: 1.12em 1.13em;
+        position: absolute;
+        left: 450px;
+        top: 44px;
+        color: #191919;
+        border-radius: .66em;
+    }
+    
+
+.ul li{
+    position: relative;
+    display: inline-block;
+    list-style: none;
+    left:100px ;
+    margin-left: 20px;
+    color: #4A4A4A;
+   ;
+}
+    
+.ul li a{
+    color: #4A4A4A;
+    text-decoration: none;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.li{
+    width: 155px;
+    
+    border-bottom-color: transparent!important;
+     display: flex; 
+     border-radius: 20px;
+     text-align: center;
+    color: #4d4d4d!important;
+    align-items: center;
+    background: #f1f1f1!important;
+    height: 48px!important;
+    line-height: 48px!important;
+    border-radius: .75em;
+    transition: .3s!important;
+}
+
+.lie:hover{
+    width: 150px;
+     border-radius: 20px;
+     text-align: center;
+    color: #4d4d4d!important;
+    align-items: center;
+    background: #f1f1f1!important;
+    height: 48px!important;
+    line-height: 48px!important;
+    border-radius: .75em;
+    transition: .3s!important;
+    margin: 0;
+    
+}
+
+
+.lies:hover{
+    width: 200px;
+     border-radius: 20px;
+     text-align: center;
+    color: #4d4d4d!important;
+    align-items: center;
+    background: #f1f1f1!important;
+    height: 48px!important;
+    line-height: 48px!important;
+    border-radius: .75em;
+    transition: .3s!important;
+    margin: 0;
+    
+}
+
+.lief:hover{
+    width: 170px;
+     border-radius: 20px;
+     text-align: center;
+    color: #4d4d4d!important;
+    align-items: center;
+    background: #f1f1f1!important;
+    height: 48px!important;
+    line-height: 48px!important;
+    border-radius: .75em;
+    transition: .3s!important;
+    margin: 0;
+    
+}
+/* font-family: element-icons!important; */
+
+
+
+h1 {
+    font-size: 2em;
+    font-weight: bold;
+    margin: .67em 0;
+    position: absolute;
+    left: 125px;
+}
+
+body, html {
+    font-family: Roboto,sans-serif;
+    font-size: 14px;
+    background-color: #fbfbfb;
+    color: #4c4c4c;
+}
+
+.buy{
+    width: 276px;
+    height: 343px;
+    margin-left: -200px;
+    position: relative;
+    background-color: white;
+    position: absolute;
+    border-radius: 10px;
+    transition:  0.4s;
+}
+
+.buyum{
+    width: 276px;
+    height: 343px;
+    left: 100px;
+    position: absolute;
+    background-color: white;
+    position: absolute;
+    border-radius: 10px;
+    transition:  0.4s;
+
+}
+
+.box{
+    width: 276px;
+    height: 343px;
+    left: 400px;
+    position: absolute;
+    background-color: white;
+    position: absolute;
+    border-radius: 10px;
+    transition:  0.4s;
+
+}
+
+.boss{
+    width: 276px;
+    height: 343px;
+    left: 700px;
+    position: absolute;
+    background-color: white;
+    position: absolute;
+    border-radius: 10px;
+    transition:  0.4s;
+
+}
+
+.bos{
+    width: 276px;
+    height: 343px;
+    top: 344px;
+    position: absolute;
+    background-color: white;
+    position: absolute;
+    border-radius: 10px;
+    left: -200px;
+    transition:  0.4s;
+
+}
+
+.best{
+    width: 276px;
+    height: 343px;
+    position: absolute;
+    background-color: white;
+    position: absolute;
+    border-radius: 10px;
+    transition:  0.4s;
+    top: 344px;
+    left:100px;
+}
+
+.b{
+    width: 276px;
+    height: 343px;
+    position: absolute;
+    background-color: white;
+    position: absolute;
+    border-radius: 10px;
+    transition:  0.4s;
+    top: 344px;
+    left:400px;
+}
+
+
+.st{
+    width: 276px;
+    height: 343px;
+    position: absolute;
+    background-color: white;
+    position: absolute;
+    border-radius: 10px;
+    transition:  0.4s;
+    top: 344px;
+    left:700px;
+}
+
+.t{
+    width: 276px;
+    height: 343px;
+    position: absolute;
+    background-color: white;
+    position: absolute;
+    border-radius: 10px;
+    transition:  0.4s;
+    top: 689px;
+    left:-200px;
+}
+
+.r{
+    width: 276px;
+    height: 343px;
+    position: absolute;
+    background-color: white;
+    position: absolute;
+    border-radius: 10px;
+    transition:  0.4s;
+    top: 689px;
+    left:100px;
+}
+
+
+.f{
+    width: 276px;
+    height: 343px;
+    position: absolute;
+    background-color: white;
+    position: absolute;
+    border-radius: 10px;
+    transition:  0.4s;
+    top: 689px;
+    left:400px;
+}
+
+
+.s{
+    width: 276px;
+    height: 343px;
+    position: absolute;
+    background-color: white;
+    position: absolute;
+    border-radius: 10px;
+    transition:  0.4s;
+    top: 689px;
+    left:700px;
+}
+.buyum:hover{
+    transform: translateY(-6px);
+
+}
+
+.buy:hover{
+    transform: translateY(-6px);
+
+}
+
+.box:hover{
+    transform: translateY(-6px);
+
+}
+.boss:hover,
+.best:hover,
+.bos:hover,
+.b:hover,
+.st:hover,
+.t:hover,
+.r:hover,
+.f:hover,
+.s:hover
+
+{
+    transform: translateY(-6px);
+
+}
+
+main{
+    background-color: #fbfbfb;
+    width: 1349px;
+    height: 1190px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 200px;
+    left:100px;
+    position: absolute;
+}
+
+p{
+    margin-left: 55px;
+}
+
+.img{
+    width: 255px;
+    object-fit: contain;
+    height: 222px;
+    margin-left: 15px;
+}
+.image{
+    top: 1500px;
+    left: 130px;
+    position: absolute;
+}
+
+.rd{
+    top: 1590px;
+    position: absolute;
+    left: 70px;
+    font-weight: bolder;
+    font-size: 16px;
+}
+
+.fox{
+    opacity: 0.7;
+}
+
+.deer{
+    top: 1625px;
+    left: 10px;
+    
+    
+}
+.br{
+    top: 1700px;
+    position: absolute;
+    left: 70px;
+}
+.tarmoq, .face{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 1625px;
+    left: 75px;
+    opacity: 0.3;
+    width: 56px;
+    height: 56px;
+    background-color: #756f6f;
+    transition: 0.5s;
+    border-radius: 12px;
+}
+
+.face{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 1625px;
+    left: 140px;
+    opacity: 0.5;
+    width: 56px;
+    height: 56px;
+    background-color: #756f6f;
+    transition: 0.5s;
+    border-radius: 12px;
+
+}
+
+.hair{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 1625px;
+    left: 205px;
+    opacity: 0.3    ;
+    width: 56px;
+    height: 56px;
+    background-color: #756f6f;
+    transition: 0.5s;
+    border-radius: 12px;
+
+}
+.head{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 1625px;
+    left: 270px;
+    opacity: 0.3;
+    width: 56px;
+    height: 56px;
+    background-color: #756f6f;
+    transition: 0.5s;
+    border-radius: 12px;
+
+}
+
+.tea{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 1625px;
+    left: 336px;
+    opacity: 0.3;
+    width: 56px;
+    height: 56px;
+    background-color: #756f6f;
+    transition: 0.5s;
+    border-radius: 12px;
+
+}
+
+.tea:hover,
+.tarmoq:hover,
+.face:hover,
+.hair:hover,
+.head:hover
+{
+    background-color: #ffd200;
+    width: 56px;
+    height: 58px;
+    opacity: 1;
+}
+
+.rasm{
+    position: absolute;
+    top: 1730px;
+    left: 70px;
+}
+.rasml{
+    position: absolute;
+    top: 1730px;
+    left: 200px;
+
+}
+
+footer li{
+    display: inline;
+}
+
+.di{
+    display: inline-block;
+    width: 230px;
+    height: 167px;
+    background-color: white;
+    position: absolute;
+    top: 1560px;
+    line-height: 25px;
+    left: 600px;
+}
+
+.we:hover{
+    color: #2d3092;}
+
+
+ .id{
+    top: 1570px;
+    left: 1000px;
+    position: absolute;
+ }   
+.snap{
+    top: 2000px;
+    position: absolute;
+}
+hr{
+    position: absolute;
+}
+
+.li{
+    display: none;
+}    
+
+.insta{
+    display: none;
+}
+
+.li:hover .insta{
+    display: block;
+    width: 200px;
+    height: 500px;
+    background-color: white;
+    position: absolute;
+    left: -10px;
+    top: -75px;
+    text-align: center;
+    z-index: 1;
+}
+
+.rgb a{
+    width: 200px;
+    height: 100px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;    
+    line-height: -15px;
+    
+}
+main > p{
+    width: 50px;
+}
+
+.pagination{
+    position: absolute;
+    top: 1050px;
+    left: -190px;
+}
+
+
+
